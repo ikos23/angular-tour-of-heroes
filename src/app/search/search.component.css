@@ -1,0 +1,16 @@
+.search-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.search-form input {
+  width: 300px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}

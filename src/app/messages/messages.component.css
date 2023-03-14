@@ -1,0 +1,32 @@
+.messages-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.messages-box-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding-bottom: 5px;
+  padding-right: 5px;
+  color: rgb(85, 85, 85);
+}
+
+.clear {
+  color: #333;
+  background-color: #eee;
+  cursor: pointer;
+}
+.clear:hover {
+  color: white;
+  background-color: #42545c;
+}

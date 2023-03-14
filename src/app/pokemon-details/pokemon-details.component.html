@@ -1,0 +1,28 @@
+<div *ngIf="pokemon" class="details-card">
+  <div class="hero-card-hero-name"><span>{{pokemon.name | uppercase}}</span> Details</div>
+  <div class="sprites">
+    <img src="{{pokemon.sprites.front_default}}" alt="pokemon image" />
+    <img *ngIf="pokemon.sprites.back_default" src="{{pokemon.sprites.back_default}}" alt="pokemon image" />
+  </div>
+  <div class="form-group">
+    <label for="id">ID</label>
+    <input type="text" class="form-control" id="id" value="{{pokemon.id}}" disabled>
+  </div>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" value="{{pokemon.name | uppercase}}" disabled>
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <div class="form-group">
+      <label for="height">Height</label>
+      <input type="text" class="form-control" id="height" value="{{pokemon.height}}" disabled>
+    </div>
+    <div class="form-group">
+      <label for="weight">Weight</label>
+      <input type="text" class="form-control" id="weight" value="{{pokemon.weight}}" disabled>
+    </div>
+  </div>
+  <div class="back-button">
+    <button (click)="goBack()">Back</button>
+  </div>
+</div>

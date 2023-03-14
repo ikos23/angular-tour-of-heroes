@@ -1,0 +1,42 @@
+.details-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.details-card > div {
+  margin-bottom: 15px;
+}
+
+.hero-card-hero-name {
+  font-size: 24px;
+  color: #303030;
+  font-weight: bold;
+}
+
+.back-button {
+  display: flex;
+  justify-content: end;
+}
+
+.back-button > button {
+  margin-right: 10px;
+  background-color: #4f4f4f;
+  border: 0px;
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.back-button > button:hover {
+  background-color: #313131;
+}
+
+.sprites {
+  display: flex;
+  justify-content: center;
+}

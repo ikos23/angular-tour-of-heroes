@@ -1,0 +1,11 @@
+<div class="top-pokemons">
+  <h2>Top Pokemons</h2>
+  <div class="cards">
+    <div class="pokemon-card" *ngFor="let pokemon of pokemons" routerLink="/details/{{pokemon.id}}">
+      <div>
+        <img src="{{pokemon.sprites.front_default}}" alt="pokemon image" />
+      </div>
+      <div class="name">{{pokemon.name | uppercase}}</div>
+    </div>
+  </div>
+</div>
