@@ -1,6 +1,6 @@
 # TourOfHeroes
 
-## This is just small app I created to try Angular (usually I use React in my daily work)
+### This is just small app I created to try Angular (usually I use React in my daily work)
 
 ![demo](./AppDemo.gif)
 
